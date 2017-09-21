@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-microservice",
+  "version": "1.0.0",
+  "description": "A microservice to generate a JWT for the given user and perform json patching and thumbnail genaration if the token passed is valid.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balrampariyarath/nodejs-microservice.git"
+  },
+  "keywords": [
+    "node",
+    "microservice",
+    "json",
+    "patching",
+    "jwt"
+  ],
+  "author": "Balram Pariyarath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balrampariyarath/nodejs-microservice.git/issues"
+  },
+  "homepage": "https://github.com/balrampariyarath/nodejs-microservice.git#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "gm": "^1.23.0",
+    "image-downloader": "^3.3.0",
+    "json-patch": "^0.7.0",
+    "jsonwebtoken": "^8.0.1",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.7.0"
+  }
+}
