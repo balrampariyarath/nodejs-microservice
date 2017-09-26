@@ -13,7 +13,7 @@ const  app = express.Router();
 
 /**
  * URL: http://localhost:3000/api/v1/login
- * Content-Type: JSON (application/json)
+ * Content-Type: application/x-www-form-urlencoded
  * Params:
  *  username: string
  *  password: password
@@ -73,7 +73,7 @@ app.post('/applyPatch', bodyParser, (req,res)=>{
 
 /**
  * URL: http://localhost:3000/api/v1/getThumbnail
- * Content-Type: JSON (application/json)
+ * Content-Type: application/x-www-form-urlencoded
  * Params:
  *  image: string (Image URL)
  *  token: token
